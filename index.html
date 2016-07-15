@@ -1,29 +1,46 @@
 <html>
     <head>
         <title>Login</title>
-        <meta charset=“UTF-8”>
-        <meta name=“viewport” content=“width=device-width”>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
     </head>
     <body>
 <p align="center">
 <img src="https://avatars3.githubusercontent.com/u/5887889?v=3&s=200" alt="some_text">
 </p>
 
-        <form action=“ingresar.php” method=“POST”>
-<br/><br/><br/><br/><br/>
+        <form action="ingresar.php" method="POST">
+<br/><br/><br/>
            <p align="center">
-            <input type="text" placeholder="Username" name="txtusuario" /> <br/>
-            <input type="password" placeholder="Password" name="txtpassword" /> <br/><br/><br/>
-           <button type="button">Login</button>
+            <input type="text" placeholder="Username" name="txtusuario" /> <br/><br/>
+            <input type="password" placeholder="Password" name="txtpassword" /> <br/><br/>
+           
         </form>
        <style>
     body {
     background-color: 305080;
 }
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0px 280px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+}
 
+.button {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
 </style>
+<button class="button submit">Login</button>
 
-
-      <style/>
+      
     </body>
 </html>
